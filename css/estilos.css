@@ -23,7 +23,11 @@ body {
 
 
 .container p {
+<<<<<<< HEAD
     color: blueviolet;
+=======
+    color: hotpink;
+>>>>>>> cabecera
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
