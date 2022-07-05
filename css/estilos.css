@@ -1,5 +1,26 @@
 body {
     text-align: center;
     font-family: "Arial";
-    color: deeppink;
+    color: burlywood;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    
+    align-content: center;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid rgb(238, 214, 182);
+    margin: 0 auto;
+    text-align: left;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.container p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
