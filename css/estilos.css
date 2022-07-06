@@ -1,9 +1,12 @@
+
 body {
     text-align: center;
     font-family: "Arial";
-    color: burlywood;
+    color: rgb(255, 145, 0);
     font-size: 16px;
     text-align: center;
+    background-color: antiquewhite;
+    background-image: url(/imagenes/spacex.jpg);
 }
 
 .container {
@@ -11,9 +14,10 @@ body {
     align-content: center;
     width: 70%;
     padding: 1em;
-    border: 4px solid rgb(238, 214, 182);
+    border: 4px solid rgb(255, 123, 0);
     margin: 0 auto;
     text-align: left;
+    background-color: rgb(238, 227, 227);
 }
 
 .container h1 {
@@ -23,7 +27,7 @@ body {
 
 
 .container p {
-    color: hotpink;
+    color: rgb(77, 77, 77);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -33,19 +37,30 @@ body {
 }
 
 #cabecera {
-    background-color: violet;
+    display: flex;
+    background-color: LightSalmon;
     color: black;
     box-shadow: 0px 2px 20px 0px rgb(0, 0, 0);
     margin: 0;
     padding: 0.5em;
     font-size: 50px;
     font-weight: bold;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;
 }
 
 #cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 25px;
 
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 50px;
 }
 
